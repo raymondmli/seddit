@@ -1,0 +1,112 @@
+.modal {
+    display: none;
+    padding-top: 50px;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    overflow-y: scroll;
+    height: 100%; 
+    text-align: center; 
+    outline: 1px #333;
+    position: fixed; 
+    opacity: 0.95;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.show {
+    display: inline-block;
+}
+
+.signup-content {
+    -webkit-animation-name: slidedown;
+    -webkit-animation-duration: 0.3s;
+    padding: 20px; 
+    margin: auto; 
+    animation-name: slidedown;
+    outline: 1px #333;
+    animation-duration: 0.3s;
+    background-color: white;
+    overflow-y: scroll;
+    position: relative; 
+    width: 20%;
+    opacity: 0.95;
+}
+
+.comment {
+    background-color:rgb(243, 240, 240); 
+}
+
+.modal-content {
+    -webkit-animation-name: slidedown;
+    -webkit-animation-duration: 0.3s;
+    margin: auto; 
+    opacity: 0.9; 
+    width: 15%;  
+    animation-name: slidedown;
+    animation-duration: 0.3s;
+    position: relative; 
+    background-color: rgb(256,256,256);
+    padding: 20px;
+    overflow-y: scroll;
+    outline: 1px #333;
+ 
+    opacity: 0.95;
+}
+
+.highlighted {
+    color: orangered; 
+    border-color: orangered;
+    opacity: 1;
+}
+
+.comment-box {
+    position: relative; 
+    -webkit-animation-name: slidedown;
+    -webkit-animation-duration: 0.3s;
+    background-color: rgb(256,256,256);
+    opacity: 0.9;
+    outline: 1px #333;
+    padding: 20px; 
+    margin: auto; 
+    width: 80%;  
+    height: 50%;
+    animation-name: slidedown;
+    animation-duration: 0.3s;
+    overflow-y: scroll;
+}
+
+.thin {
+    width: 20%;
+}
+
+@-webkit-keyframes slidedown {
+    from {
+        top:-500px; 
+    } 
+    to {
+        top:0; 
+    }
+  }
+@keyframes slidedown {
+    from {
+        top:-500px; 
+    }
+    to {
+        top:0; 
+    }
+}
+
+.green-outline {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+}
+
+.red-outline {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
+ 
+
+
+  

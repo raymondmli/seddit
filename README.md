@@ -25,8 +25,6 @@ Each post includes:
 7. How many comments the post has
 8. What suseddit this was posted to i,e `/s/meme`
 
-While completing these tasks for level 0, consider the future inclusion of HTTP requests when 
-designing your code - this will be helpful for future levels.
 
 ## API Fetching 
 

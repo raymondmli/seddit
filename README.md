@@ -1,5 +1,5 @@
 # seddit
-A subset of the ever popular collection of web forums known as Reddit 
+A subset of the ever popular collection of web forums known as Reddit for COMP2041
 
 Features:
 
